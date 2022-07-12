@@ -1,0 +1,168 @@
+body{
+overflow-y:scroll ;
+overflow-x: hidden;
+font-family: fontfarsi;
+}
+@font-face {
+    font-family:"fontfarsi";
+    src: url('Lalezar.woff');
+}
+
+#loginpage{
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,0);
+    width: 400px;
+    height: 130px;
+    background-color: rgb(236, 236, 236);
+    border: rgb(255, 123, 0) 5px solid;
+    border-radius: 4px;
+font-family: fontfarsi;
+    
+}
+
+#loginpage:only-child
+{
+display: inline-block;
+font-family: fontfarsi;
+
+}
+
+#loginpage input{
+    margin-left: 50%;
+    transform: translate(-50%,0);
+    font-family: fontfarsi;
+
+}
+
+#loginpage label{
+    margin-left: 25%;
+    margin-top: 6px;
+font-family: fontfarsi;
+
+
+}
+
+
+#loginpage button{
+    margin-left: 97%;
+    transform: translate(-97%,0);
+    position: absolute;
+    bottom: 4px;
+    background-color: rgb(255, 115, 0);
+    border-radius: 3px;
+    border: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 70px;
+    height: 30px;
+    font-family: fontfarsi;
+
+
+}
+
+#makegroup {
+    width: 95%;
+    height: 300px;
+    border: black 1px solid;
+    margin-left: 50%;
+    transform: translate(-50%,0);
+    margin-top: 10px;
+font-family: fontfarsi;
+
+}
+
+#makegroup label{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 1%;
+    font-weight: bold;
+    font-family: fontfarsi;
+
+}
+
+#makegroup form{
+    margin-left: 50%;
+    transform: translate(-50%,0);
+    background-color: whitesmoke;
+    width: 200px;
+    height: 200px;
+    border: rgb(121, 121, 121) 1px solid;
+font-family: fontfarsi;
+
+}
+
+#makegroup #pageshower{
+    margin-left: 50%;
+    transform: translate(-50%,0);
+    background-color: whitesmoke;
+    width: 200px;
+    height: 200px;
+    border: rgb(121, 121, 121) 1px solid;
+font-family: fontfarsi;
+
+}
+#makegroup input{
+    margin-left: 50%;
+    transform: translate(-50%,0);
+font-family: fontfarsi;
+
+}
+
+#makegroup form #okbtn{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 60px;
+    height: 20px;
+font-family: fontfarsi;
+
+}
+
+#makegroup form label{
+    margin-left: 5%;
+    font-size: smaller;
+font-family: fontfarsi;
+    
+}
+#makegroup #pageshower label{
+    margin-left: 5%;
+    font-size: smaller;
+font-family: fontfarsi;
+
+}
+#listchat{
+    width: 100%;
+    background-color: white;
+    margin-top: 2px;
+font-family: fontfarsi;
+
+}
+
+#listchat:hover{
+    background-color: rgb(228, 228, 228);
+font-family: fontfarsi;
+
+}
+
+#dellist{
+    position: relative;
+    margin-left: 100%;
+    transform: translate(-100%,-50%);
+    background-color: rgb(255, 0, 98);
+    border: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 25px;
+    transition: 0.3s;
+font-family: fontfarsi;
+
+    
+}
+#dellist:hover{
+
+    background-color: rgb(248, 87, 87);
+    margin-left: 99%;
+font-family: fontfarsi;
+
+    
+}

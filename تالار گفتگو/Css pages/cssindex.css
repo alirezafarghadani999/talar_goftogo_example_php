@@ -1,0 +1,209 @@
+body{
+    background-color: #7D9D9C;
+
+    padding: 0;
+    margin: 0;
+    font-family: fontfarsi;
+}
+
+@font-face {
+    font-family:"fontfarsi";
+    src: url('Lalezar.woff');
+}
+
+#page{
+width: 45vh;
+height: 55vh;
+background-color: #E4DCCF;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+border-radius: 33px;
+box-shadow: 0 10px 10px rgba(0, 0, 0, 0.411);
+font-family: fontfarsi;
+
+
+}
+
+#loginpage button{
+    bottom: 2vh;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0);
+    width: 20vh;
+    height: 5vh;
+    background-color: #7D9D9C;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 2vh;
+    font-weight: bold;
+
+}
+
+#loginpage forms{
+    top: 50%;
+    position: absolute;
+    transform: translate(0,-50%);
+    width: 100%;
+
+}
+
+#loginpage forms input{
+    background-color: #7D9D9C;
+    border: none;
+    width: 35vh;
+    height: 5.5vh;
+    border-radius: 6px;
+    margin-bottom: 3vh;
+    margin-top: 0.3vh;
+    color: #576F72;
+    font-size: 2vh;
+    font-family: fontfarsi;
+    letter-spacing: 1px;
+    font-weight: bold;
+    resize: none;
+    outline: none;
+}
+
+#loginpage forms label{
+
+    color: #576F72;
+    font-family: fontfarsi;
+    font-size: 1.8vh;
+    letter-spacing: 1px;
+    position: absolute;
+    left: 0;
+    margin-left: 4.2vh;
+    font-weight: bold;
+
+
+}
+
+#loginpage #profile {
+
+    width: 15vh;
+    height: 15vh;
+    background-color: #576F72;
+    position: absolute;
+    border-radius: 50%;
+    left: 50%;
+    transform: translate(-50%,-7vh);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.288);
+} 
+
+
+#profile img{
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    width: 50%;
+    height: 50%;
+    transition: 1s;
+    
+
+}
+
+#profile img:hover{
+    width: 80%;
+    height: 80%;
+
+}
+
+.button{
+    border: none;
+}
+
+#listview{
+    position: relative;
+    display: block;
+    width: 35vh;
+    height: 5vh;
+    background-color: #576F72;
+    margin-top: 10px;
+    border-radius: 6px;
+    color: white;
+    font-family: fontfarsi;
+    letter-spacing: 1px;
+    font-weight: bold;
+    --rotate:rotate(0) translate(0,-0.6vh);
+
+
+
+}
+
+
+#listview #labellistview{
+    position:absolute;
+    right: 1vh;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+
+#listview:hover{
+
+    --rotate:rotate(90deg) translate(-0.6vh,0);
+    background-color: #7D9D9C;
+}
+
+#listview #shapelistview{
+    position:absolute;
+    left: 1vh;
+    top: 50%;
+    transform: translate(0,-50%);
+    width: 0;
+    height: 0;
+
+    border-left: 0.7vh solid transparent;
+    border-right: 0.7vh solid transparent;
+    border-bottom: 1.2vh solid rgb(255, 255, 255);
+    border-radius: 3px;
+    transition: .5s;
+    transform:var(--rotate) ;
+    
+}
+
+#loginpage{
+    transition: .9s;
+}
+#Selectchat{
+    transition: 2s;
+
+}
+
+#listchat{
+    overflow: scroll;
+    height: 100%;
+    width: 100%;
+    display: block;
+    position: absolute;
+    overflow-x: hidden; 
+
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f100;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0);
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(85, 85, 85, 0);
+  }
+
+  .example::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .example {
+    -ms-overflow-style: none;
+    scrollbar-width: none; 
+  }
